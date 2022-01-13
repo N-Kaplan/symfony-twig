@@ -61,5 +61,5 @@ This is why we can extend with our custom twig functions and filters!
 
 You need a custom [TwigFunction](https://symfony.com/doc/current/templating/twig_extension.html) to do this, follow the symfony documentation for more information.
 
- - [ ] Make sure to show the enters ```(<br>)``` being displayed in the quotes, don't show a quote on only 1 line.
+ - [x] Make sure to show the enters ```(<br>)``` being displayed in the quotes, don't show a quote on only 1 line.
 You can do this with the [nl2br filter](https://twig.symfony.com/doc/3.x/filters/nl2br.html).
