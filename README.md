@@ -14,11 +14,11 @@ Use the MVC Routing exercise you created previously. If yours was unstable, ask 
 - [x] Add a <footer>&copy; Becode</footer> in the base template file, this footer should appear on all pages!
 
 ### Menu
-- [ ] In the base.html.twig file add a menu block surrounded by an ``<aside>`` tag (make it appear to the left with css).
-- [ ] Inside the menu block add 2 links to the homepage and the about me page.
+- [x] In the base.html.twig file add a menu block surrounded by an ``<aside>`` tag (make it appear to the left with css).
+- [x] Inside the menu block add 2 links to the homepage and the about me page.
 
 ### About me
- - [ ] Add some content to the new left menu that only appears on the about-me page.
+ - [x] Add some content to the new left menu that only appears on the about-me page.
 Show the current date in 3 different formats in the left menu, but only pass a `DateTime` object once trough your controller.
 Because your Controller is in a namespace don't forget to import the `DateTime` class!
 
@@ -39,11 +39,12 @@ In order to make this work you might need to install the following extensions:
 
 Make sure the 2 links that are as a default in the menu block still appear above your dates, you will need to read about
 [extending a block](https://twig.symfony.com/doc/3.x/tags/extends.html#child-template) in order to pull that off.
+- Note: add ```{{ parent() }}``` to the child block to replicate the parent block content.
 
 ### Home page (show my name)
 Now we add some extra functionality on the homepage, in the menu below the default navigation.
 
-- [ ] Display the name with each word capitalized, but all the rest in lower case, so "JOHN SMITH" becomes "John Smith".
+- [x] Display the name with each word capitalized, but all the rest in lower case, so "JOHN SMITH" becomes "John Smith".
 
 You will need to a filter to do this, here is a selection that might be useful:
 
@@ -56,7 +57,7 @@ You will need to a filter to do this, here is a selection that might be useful:
 Sometimes you want to add a piece of custom code on several places in your website, and always passing the same code to your controller can become cumbersome.
 This is why we can extend with our custom twig functions and filters!
 
- - [ ] Create a "Random quote generator", you don't need to write the code for the quotes anymore, just copy the [quotes.php](quotes.php) script. Add a random quote on each page below the current content.
+ - [x] Create a "Random quote generator", you don't need to write the code for the quotes anymore, just copy the [quotes.php](quotes.php) script. Add a random quote on each page below the current content.
 
 You need a custom [TwigFunction](https://symfony.com/doc/current/templating/twig_extension.html) to do this, follow the symfony documentation for more information.
 

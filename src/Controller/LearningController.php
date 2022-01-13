@@ -13,10 +13,6 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use App\Entity\User;
 
-//dateTime
-use Symfony\Component\Validator\Constraints as Assert;
-use Symfony\Component\Validator\Mapping\ClassMetadata;
-
 class LearningController extends AbstractController
 {
     //requestStack saves session variables

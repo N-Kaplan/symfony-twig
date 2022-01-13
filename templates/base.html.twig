@@ -27,6 +27,12 @@
             {%  endblock %}
         </aside>
         {% block body %}{% endblock %}
+
+        <section>
+        {% block quote %}
+            {{ pickQuote()|nl2br }}
+        {% endblock quote %}
+        </section>
         <footer class="fixed-bottom bg-light text-center text-end text-dark">
             {% block footer %}&copy; BeCode{% endblock %}
         </footer>
