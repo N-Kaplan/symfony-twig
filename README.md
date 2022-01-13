@@ -11,7 +11,7 @@ Date: ```13 January 2022```
 
 Use the MVC Routing exercise you created previously. If yours was unstable, ask another student to use theirs.
 
-- [ ] Add a <footer>&copy; Becode</footer> in the base template file, this footer should appear on all pages!
+- [x] Add a <footer>&copy; Becode</footer> in the base template file, this footer should appear on all pages!
 
 ### Menu
 - [ ] In the base.html.twig file add a menu block surrounded by an ``<aside>`` tag (make it appear to the left with css).
