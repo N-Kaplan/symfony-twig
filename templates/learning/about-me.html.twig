@@ -2,6 +2,14 @@
 
 {% block title %}Hello LearningController!{% endblock %}
 
+{% block menu %}
+    {{ parent() }}
+    <br>
+    <p> Europe: {{ dateTime|date("d/m/Y") }}</p>
+    <p> America: {{ dateTime|date("m/d/Y") }}</p>
+    <p> China & Japan: {{ dateTime|date("Y/m/d") }}</p>
+{% endblock menu %}
+
 {% block body %}
     <style>
         .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
